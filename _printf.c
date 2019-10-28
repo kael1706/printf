@@ -32,7 +32,7 @@ int _printf(const char *format, ...)
 
 	if (format == NULL)
 		return (-1);
-	va_start(arg, format);
+	va_start(vl, format);
 	while (format && format[i] != '\0')
 	{
 		long int next = i + 1;
@@ -47,7 +47,7 @@ int _printf(const char *format, ...)
 			}
 			else
 			{
-				count += f_controller(format[next])(arg);
+				count += f_controller(format[next])(vl);
 				i++;
 			}
 		}
@@ -55,6 +55,6 @@ int _printf(const char *format, ...)
 		_putchar(format[i]), count++;
 		i++;
 	}
-	va_end(arg);
+	va_end(vl);
 	return (count);
 }
