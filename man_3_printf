@@ -52,16 +52,16 @@ Output : "hello_w"
 .Pp
 .Sh FILES                \" File used or created by the topic of the man page
 .Bl -tag -width "/Users/joeuser/Library/really_long_file_name" -compact
-.It Main
-FILE_1 description
 .It Holberton.h
-FILE_2 description
-.It Struct
-FILE_1 description
+FILE that contains all prototypes.
 .It _putchar
-FILE_2 description
+FILE_ that contains the _putchar function.
 .It _printf
-FILE_2 description
+FILE that contains printf function and a function controller.
+.It man_3_printf
+FILE whit the descrption of the function _printf.
+.It functions
+FILE that contains all functions.
 .El                      \" Ends the list
 .Sh AUTHOR
 _printf project for Holberton School by Carlos Daniel Cortez, Daniel Gustavo Quintero.
