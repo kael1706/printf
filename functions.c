@@ -60,3 +60,47 @@ int f_string(va_list vl)
 	}
 	return (n);
 }
+/**
+* f_int - print int
+* @vl: int inside valist
+* Return: number of digits
+*/
+int f_int(va_list vl)
+{
+	long int n = 0, nDigits = 1, tmpStrN, safe_copy, strNumber;
+
+	strNumber = va_arg(vl, int);
+
+	if (strNumber < 0)
+	{
+		_putchar('-');
+		if (strNumber <= -2147483648)
+		{
+			tmpStrN = 147483648;
+			_putchar('2');
+		}
+		else
+			tmpStrN = strNumber * -1;
+		n++;
+	}
+	else if (strNumber == 0)
+	{
+		_putchar('0');
+		return (1);
+	}
+	else
+		tmpStrN = strNumber;
+	safe_copy = tmpStrN;
+	while (tmpStrN > 9)
+	{
+		tmpStrN = (tmpStrN / 10);
+		nDigits = (nDigits * 10);
+	}
+	while (nDigits > 0)
+	{
+		_putchar(((safe_copy / nDigits) % 10) + '0');
+		nDigits = (nDigits / 10);
+		n++;
+	}
+	return (n);
+}
