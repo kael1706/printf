@@ -67,21 +67,15 @@ int f_string(va_list vl)
 */
 int f_int(va_list vl)
 {
-	long int n = 0, nDigits = 1, tmpStrN, safe_copy, strNumber;
+	long int n = 0, nDigits = 1, strNumber;
+	unsigned int tmpStrN, safe_copy;
 
 	strNumber = va_arg(vl, int);
 
 	if (strNumber < 0)
 	{
+		tmpStrN = -strNumber;
 		_putchar('-');
-		if (strNumber <= -2147483648)
-		{
-			tmpStrN = 147483648;
-			_putchar('2');
-			n++;
-		}
-		else
-			tmpStrN = strNumber * -1;
 		n++;
 	}
 	else if (strNumber == 0)
