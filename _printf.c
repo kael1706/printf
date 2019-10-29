@@ -15,7 +15,16 @@ int (*f_controller(char cs))(va_list)
 			return (managerArr[i].f);
 		i++;
 	}
-	return (fe_1);
+	if (cs == '\0')
+	{
+		return (fe_1);
+	}
+	else
+	{
+		_putchar('%');
+		_putchar(cs);
+		return (fe_2);
+	}
 }
 /**
 * _printf - print values
