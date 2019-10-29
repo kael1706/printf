@@ -78,6 +78,7 @@ int f_int(va_list vl)
 		{
 			tmpStrN = 147483648;
 			_putchar('2');
+			n++;
 		}
 		else
 			tmpStrN = strNumber * -1;
