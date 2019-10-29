@@ -4,7 +4,7 @@
  * @vl: unused valist
  * Return: -1
  */
-int fe_1(va_list vl)
+int fe_1(__attribute__((unused)) va_list vl)
 {
 	return (-1);
 }
