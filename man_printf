@@ -1,0 +1,67 @@
+.Dd 29/10/2019               \" DATE
+.Dt _printf(1)      \" Program name and manual section number
+.Os Holberton School
+.Sh NAME                 \" Section Header - required - don't modify
+.Nm _printf,
+.Nm function to print (c, s, i, d), 
+.Nm similar function to the printf from the standard input and output library <stdio.h>,
+.\" Use .Nm macro to designate other names for the documented program.
+.Nd Display data.
+.Sh SYNOPSIS             \" Section Header - required - don't modify
+.Nm
+.Nm #include "holberton.h".
+.br 
+.Nm Protoype of function: 
+int _printf (const char *format, ...);
+.Sh DESCRIPTION          \" Section Header - required - don't modify
+_printf function is usefull to print arguments like:
+.Bl -tag -width -indent  \" Begins a tagged list
+.It char %c             \" Each item preceded by .It macro
+to display 
+.Ar Chars.
+.It str %s
+to display 
+.Ar Strngs.
+.It int %i              \" Each item preceded by .It macro
+to display 
+.Ar Integers.
+.It dec %d
+to display 
+.Ar Decimals.
+.El                      \" Ends the list
+.Sh EXAMPLE
+.Nm
+Is used to print "characters, strings, float, integers, decimals. 
+.Ar E.x: \" Inserts a space
+
+
+.Nm Print a char using %c:
+.br
+#include "holberton.h"
+.br
+int main (void)
+.br
+{
+.br
+printf("hello%c", 'w');
+.br
+return (0);
+.br
+}
+Output : "hello_w"
+.Pp
+.Sh FILES                \" File used or created by the topic of the man page
+.Bl -tag -width "/Users/joeuser/Library/really_long_file_name" -compact
+.It Main
+FILE_1 description
+.It Holberton.h
+FILE_2 description
+.It Struct
+FILE_1 description
+.It _putchar
+FILE_2 description
+.It _printf
+FILE_2 description
+.El                      \" Ends the list
+.Sh AUTHOR
+_printf project for Holberton School by Carlos Daniel Cortez, Daniel Gustavo Quintero.
