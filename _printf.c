@@ -11,6 +11,7 @@ int (*f_controller(char cs))(va_list)
 		{'c', f_char},
 		{'i', f_int},
 		{'d', f_int},
+		{'b', f_bin},
 		{'s', f_string},
 		{'\0', fe_1}};
 
