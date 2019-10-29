@@ -19,6 +19,7 @@ int _printf(const char *format, ...);
 int (*f_controller(char cs))(va_list);
 int _putchar(char c);
 int f_char(va_list vl);
+int f_string(va_list vl);
 int fe_1(va_list vl);
 int fe_2(va_list vl);
 #endif

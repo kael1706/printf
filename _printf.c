@@ -7,7 +7,10 @@
 int (*f_controller(char cs))(va_list)
 {
 	int i = 0;
-	managerF managerArr[] = {{'c', f_char}, {'\0', fe_1}};
+	managerF managerArr[] = {
+		{'c', f_char},
+		{'s', f_string},
+		{'\0', fe_1}};
 
 	while (managerArr[i].cs != '\0')
 	{

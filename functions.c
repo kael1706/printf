@@ -33,3 +33,30 @@ int f_char(va_list vl)
 	_putchar(c);
 	return (1);
 }
+
+/**
+* f_string - print string
+* @vl: string inside valist
+* Return: size of string
+*/
+int f_string(va_list vl)
+{
+	char *word;
+	int i = 0, n = 0;
+
+	word = va_arg(vl, char*);
+
+	if (word == NULL)
+	{
+		word = "(null)";
+		n = 0;
+	}
+
+	while (word != NULL && word[i] != '\0')
+	{
+		_putchar(word[i]);
+		n++;
+		i++;
+	}
+	return (n);
+}
