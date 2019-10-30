@@ -42,8 +42,9 @@ then run this command:
 
 ## The pseudocode :pencil:
 <p align="center"><img src="https://raw.githubusercontent.com/dgquintero/dgquintero.github.io/master/images/Printfdiagram.png](https://raw.githubusercontent.com/dgquintero/dgquintero.github.io/master/images/Printfdiagram.png" alt="diagrama"></a></p>
+
 ## Component diagram :pencil:
-<p align="center"><img src="https://raw.githubusercontent.com/dgquintero/dgquintero.github.io/master/images/Printfdiagram.png](https://raw.githubusercontent.com/dgquintero/dgquintero.github.io/master/images/Printfdiagram.png" alt="diagrama"></a></p>
+<p align="center"><img src="https://raw.githubusercontent.com/dgquintero/dgquintero.github.io/master/images/IMG_2838%20(1).png" alt="diagrama"></a></p>
 
 ## Authors :copyright:
 
