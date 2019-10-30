@@ -4,9 +4,9 @@
 
 is a [Holberton School](https://www.holbertonschool.com/) ..proyect
 
-## Prerequisites 📋
+## Systems Prerequisites 📋
 
-64-bit system , Ubuntu 
+64-bit system , Ubuntu 14.04
 
 ### Conversion Specifiers::mag_right:
 - **s** = strings
@@ -41,6 +41,8 @@ then run this command:
 `Output : "hello_w"`
 
 ## The pseudocode :pencil:
+<p align="center"><img src="https://raw.githubusercontent.com/dgquintero/dgquintero.github.io/master/images/Printfdiagram.png](https://raw.githubusercontent.com/dgquintero/dgquintero.github.io/master/images/Printfdiagram.png" alt="diagrama"></a></p>
+## Component diagram :pencil:
 <p align="center"><img src="https://raw.githubusercontent.com/dgquintero/dgquintero.github.io/master/images/Printfdiagram.png](https://raw.githubusercontent.com/dgquintero/dgquintero.github.io/master/images/Printfdiagram.png" alt="diagrama"></a></p>
 
 ## Authors :copyright:
