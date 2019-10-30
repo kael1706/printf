@@ -1,5 +1,5 @@
 .Dd 29/10/2019               \" DATE
-.Dt _printf(1)      \" Program name and manual section number
+.Dt _printf(3)      \" Program name and manual section number
 .Os Holberton School
 .Sh NAME                 \" Section Header - required - don't modify
 .Nm _printf,
